@@ -1,0 +1,4 @@
+[
+	{"keys" : ["ctrl+f10"], "command" : "run_macro_file", "args" : {"file" : "res://Packages/User/posh-array.sublime-macro"}},
+	{"keys" : ["f10"], "command" : "permute_lines", "args" : {"operation" : "unique"}}
+]
