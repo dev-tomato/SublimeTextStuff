@@ -1,0 +1,14 @@
+[
+ {"command": "select_all"},
+ {"command": "split_selection_into_lines"},
+ {"command": "expand_selection", "args" : {"to": "eol"}},
+ {"command": "insert_snippet", "args" : {"contents": "\"${0:$SELECTION}\","}},
+ {"command": "move_to", "args" : {"to" : "eof"}},
+ {"command": "delete_word", "args" : {"forward": false}},
+ {"command": "insert_snippet", "args" : {"contents": "\")"}},
+ {"command": "select_all"},
+ {"command": "join_lines"},
+ {"command": "move_to", "args" : {"to" : "bof"}},
+ {"command": "insert_snippet", "args" : {"contents": "@("}},
+ {"command": "select_all"}
+]
